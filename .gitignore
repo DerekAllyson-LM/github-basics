@@ -1,0 +1,25 @@
+# Exclude the .htacces fike
+.htaccess
+
+#Exclude and PSD/AI file
+*.psd
+*.ai
+
+#Exclude the build products
+build/*
+#this is *.o or *.a
+*.[oa]
+
+#Exclude OS X fold attributes
+.DS_Store
+
+#Exclude Text files
+*.txt
+#except readme.txt
+!README.txt
+
+#Exclude log files
+*.log
+
+#Exclude Fonts
+_fonts/
